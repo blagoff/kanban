@@ -1,0 +1,55 @@
+*{
+	text-align: center;
+	font-family: 'Staatliches', cursive;
+	list-style-type: none;
+
+}
+
+h1{
+	left: 50%;
+	font-size: 30px;
+	color: white;
+}
+
+body{
+	background-color: #424242;
+}
+
+
+.create-column{
+	top: 100px;
+	border: 1px solid red;
+}
+
+.card-description{
+	background-color: DodgerBlue;
+	border:1px solid green;
+	width: 200px;
+	height:200px;
+	margin-left:5px;
+}
+
+.column-card-list{
+  display: flex;
+  flex-wrap:wrap;
+}
+
+.add-card{
+	margin-top: 100px;
+	background-color:green;
+	display: inline-block;
+
+}
+
+.card{
+	display: flex;
+	align-items: baseline;	
+}
+
+
+
+
+
+
+
+
