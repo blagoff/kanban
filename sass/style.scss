@@ -15,10 +15,16 @@ body{
 	background-color: #424242;
 }
 
+.column-container {
+
+    max-width: 400px;
+    display: flex;
+    justify-content: space-between;
+}
 
 .create-column{
 	top: 100px;
-	border: 1px solid red;
+	width: 100px;
 }
 
 .card-description{
@@ -27,6 +33,7 @@ body{
 	width: 200px;
 	height:200px;
 	margin-left:5px;
+	display: inline-block;
 }
 
 .column-card-list{
@@ -37,8 +44,6 @@ body{
 .add-card{
 	margin-top: 100px;
 	background-color:green;
-	display: inline-block;
-
 }
 
 .card{
@@ -46,10 +51,8 @@ body{
 	align-items: baseline;	
 }
 
-
-
-
-
-
-
+.column{
+	min-height: 300px;
+	min-width: 300px;
+}
 
